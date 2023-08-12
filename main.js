@@ -1,3 +1,3 @@
 const input = 'Whats up doc?';
-
-let vowels = ['a', 'e', 'i', 'o', 'u'];
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+let resultArray = [];
