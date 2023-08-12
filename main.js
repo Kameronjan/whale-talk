@@ -1,13 +1,13 @@
-const input = 'Whats up doc?';
-const vowels = ['a', 'e', 'i', 'o', 'u'];
+const input = "Whats up doc?";
+const vowels = ["a", "e", "i", "o", "u"];
 let resultArray = [];
 
 for (let i = 0; i < input.length; i++) {
-  if (input[i] === 'e') {
+  if (input[i] === "e") {
     resultArray.push(input[i]);
   }
 
-  if (input[i] === 'u') {
+  if (input[i] === "u") {
     resultArray.push(input[i]);
   }
 
@@ -18,5 +18,5 @@ for (let i = 0; i < input.length; i++) {
   }
 }
 
-const resultString = resultArray.join('').toUpperCase();
+const resultString = resultArray.join("").toUpperCase();
 console.log(resultString);
