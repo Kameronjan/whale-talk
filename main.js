@@ -18,4 +18,5 @@ for (let i = 0; i < input.length; i++) {
   }
 }
 
-console.log(resultArray);
+const resultString = resultArray.join('').toUpperCase();
+console.log(resultString);
