@@ -4,6 +4,6 @@ let resultArray = [];
 
 for (let i = 0; i < input.length; i++) {
   for (let j = 0; j < vowels.length; j++) {
-
+    console.log(input[i])
   }
 }
